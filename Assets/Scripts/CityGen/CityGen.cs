@@ -2,15 +2,17 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class CityGen : MonoBehaviour {
+public class CityGen : MonoBehaviour
+{
+	public List<City> cities = new List<City>();
 
-	// Use this for initialization
-	void Start () {
+	void Start ()
+	{
 		
 	}
 	
-	// Update is called once per frame
-	void Update () {
+	void Update ()
+	{
 		
 	}
 }

@@ -1,16 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEditor;
 
-public class CityGenInspector : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
+[CustomEditor(typeof(CityGen))]
+public class CityGenInspector : Editor
+{
+	public override void OnInspectorGUI()
+	{
+		CityGen cityGen = (CityGen) target;
 	}
 }
