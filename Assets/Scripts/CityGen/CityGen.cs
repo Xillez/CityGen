@@ -2,9 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[ExecuteInEditMode]
 public class CityGen : MonoBehaviour
 {
-	public List<City> cities = new List<City>();
+	[SerializeField] public List<City> cities = new List<City>();
 
 	void Start ()
 	{
