@@ -1,6 +1,8 @@
 # User defined ignores
 .vscode/
 .vscode/*
+Assets/Scripts/Camera.meta
+Assets/Scripts/Camera/
 
 
 # Created by https://www.gitignore.io/api/git,linux,unity,windows,notepadpp,sublimetext,visualstudio,visualstudiocode
